@@ -1,6 +1,5 @@
-var cwd = process.cwd();
 var io = require('socket.io-client');
-var clients = require(cwd + "/app/script/clients.js");
+var clients = require("./app/script/clients.js");
 	
 var socket = null;
 	
@@ -63,7 +62,7 @@ var monitor = function(type, name, reqId) {
 	}
 	}
 	
-var host = '192.168.164.84';
+var host = "115.236.114.84";
 var port = 9092;
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
