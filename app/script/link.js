@@ -1,5 +1,5 @@
 var io = require('socket.io-client');
-var clients = require("./app/script/clients.js");
+var clients = require("/home/ubuntu/hello/app/script/clients.js");
 	
 var socket = null;
 	
