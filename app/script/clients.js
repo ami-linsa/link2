@@ -1,6 +1,6 @@
 var fs = require("fs");
 var cwd = process.cwd();
-var uidfile = cwd + "/app/script/uids";
+var uidfile =  "/home/ubuntu/hello/app/script/uids";
 
 
 var _uids = fs.readFileSync(uidfile).toString().split("\n");
